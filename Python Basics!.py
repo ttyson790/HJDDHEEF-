@@ -107,4 +107,28 @@ else:
      print('More')
 
      
-    """
+
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for item in nested_list:
+    for i in item:
+        print (i)
+"""
+""""price = {
+    "Banana": 4,
+    "Apple" : 2,
+    "Orange" : 1.5,
+    "Pear" : 3}
+stock = {
+    "Banana": 6,
+    "Apple" : 0,
+    "Orange" : 32,
+    "Pear" : 15}
+tot = 0
+for key in price:
+    print (key)
+    print ('Price: ', price[key])
+    print ('Stock: ', stock[key])
+    print ('Price of stock: ', price[key] * stock [key])
+    tot += price[key] * stock[key]
+print ('Total cost: ', tot)"""
+           
